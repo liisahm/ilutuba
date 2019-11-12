@@ -4,14 +4,13 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color:black;
+  background-color:lightblue;
 }
 
 
 header {
-  background-color: #666;
   padding: 5px;
-  text-align: center;
+  text-align: left;
   font-size: 15px;
 }
 
@@ -22,19 +21,26 @@ section {
 }
 
 
-nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background: #ccc;
-  padding: 20px;
-}
-
-
-nav ul {
+ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
+  overflow: hidden;
 }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
 
 
 article {
