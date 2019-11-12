@@ -71,7 +71,8 @@ h1{
 p{
 	font-family: Times New Roman;
 	font-size: 18px;
-	color: blue;
+	color: black;
+	text-align: right;
 }
 
 th{
